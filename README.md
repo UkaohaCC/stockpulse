@@ -29,7 +29,6 @@
 
 ### Installation
 
-```bash
 # Clone the repository
 git clone https://github.com/UkaohaCC/stockpulse.git
 cd stockpulse
@@ -37,6 +36,8 @@ cd stockpulse
 # Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
+
+
 #venv\Scripts\activate   # Windows
 
 # Install dependencies
@@ -49,7 +50,7 @@ cp .env.example .env
 python run.py #or python3 run.py
 
 
-## 📁 Data Directory
+##  Data Directory
 
 The `data/` folder stores the SQLite database (`stockpulse.db`).  
 It is created automatically on first run — no setup needed.
@@ -58,3 +59,4 @@ python run.py  # database created at data/stockpulse.db
 
 ## Disclaimer
 This project is for educational purposes only. Please respect the terms of service of the websites being scraped. The data displayed may be delayed or inaccurate. Do not use for actual trading decisions.
+Open for contributions too, feel free to pull requests and make this better.
