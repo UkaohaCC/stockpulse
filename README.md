@@ -1,4 +1,4 @@
-# 📊 StockPulse
+#  StockPulse
 
 > Real-time stock market dashboard with web scraping, built with Python, BeautifulSoup, and Plotly Dash.
 
