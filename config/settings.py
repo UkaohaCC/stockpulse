@@ -14,7 +14,7 @@ load_dotenv(BASE_DIR / ".env")
 class Settings:
     """Central configuration for StockPulse."""
 
-    # ..app
+  
     APP_NAME: str = "StockPulse"
     APP_VERSION: str = "1.0.0"
     APP_HOST: str = os.getenv("APP_HOST", "127.0.0.1")
